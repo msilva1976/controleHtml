@@ -1,0 +1,62 @@
+*{
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #ddd;
+}
+#novo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+}
+.elementosForms{
+  float:right;
+  display: flex;  
+  align-items:self-end;
+  flex-direction: column;
+  width: 70%;
+  border: 1px solid #2619de;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font:100px;
+  padding: 5px;
+  margin: 5px;
+
+
+}
+.campoForms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  
+}
+.botoesForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+input{
+  background: #ddd;
+  margin: 0px 0px 0px 5px;
+  border: solid 1px #248;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+.btn_geral{
+  background-color: #248;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px 10px 10px 10px;
+  margin: 2px;
+}
